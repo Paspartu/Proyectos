@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>Libros autores</display-name>
+	<servlet>
+		<servlet-name>appLibro</servlet-name> 
+		<servlet-class>controlador.ControladorLibros</servlet-class> 
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>appLibro</servlet-name>
+		<url-pattern>/servlet</url-pattern> 
+	</servlet-mapping>
+</web-app>
