@@ -67,6 +67,7 @@ public class modelo {
            }catch(SQLException e){
               System.err.println( e.getMessage() );
           }
+        conexion.close();
           return data;
       }
 /*
